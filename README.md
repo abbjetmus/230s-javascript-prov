@@ -7,7 +7,7 @@ Vet ni hur man zippar så får ni gärna zippa mappen med filerna.<br><br>
 
 Börja med att klona eller ladda ner projektet.
 <br>
-`git clone https://github.com/abbjetmus/210s-javascript-prov.git`
+`git clone https://github.com/abbjetmus/210s-javascript-prov-extra`
 <br>
 ## Att tänka på
 
@@ -18,7 +18,7 @@ Du får använda valfri editor för att koda men rekommenderar Visual Studio Cod
 
 ## Fråga 1 - Variabler
 1. Skapa två variabler en som heter <b>height</b> som du tilldelar ett valfritt tal/nummer, och en som heter <b>width</b> som du också tilldelar ett tal till.
-2. Skapa sedan en variabel <b>omkrets</b> som tilldelas additionen av variablerna height och width så att omkretsen beräknas. Dvs omkretsen av en rektangel med variablerna.<br>
+2. Skapa sedan en variabel <b>omkrets</b> som tilldelas additionen av variablerna height och width så att omkretsen beräknas. Dvs omkretsen av en rektangel med variablerna där width och height är sidorna.<br>
 3. Skriv ut omkrets variabeln till konsolen.
 
 ## Fråga 2 - HTML/CSS
@@ -42,7 +42,7 @@ Använd if-satser för att kontrollera ifall namnet är:<br> <i>Pelle</i>, <i>Ka
 
 ## Fråga 5 - For-loopen
  
-Skapa en for-loop som loopar igenom talen 0 till 18 och skriver ut talet till konsolen.
+Skapa en for-loop som loopar igenom talen 0 till 20 och skriver ut talet till konsolen.
 
 
 ## Fråga 6 - For-loop på lista med objekt
