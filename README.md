@@ -1,13 +1,13 @@
 # 210s-javascript-prov
 ## Regler
 * Inte tillåtet att hjälpa varandra på något sätt, räknas som fusk.
-* Det är tillåtet att använda internet hur mycket man vill.
+* Det är tillåtet att använda internet hur mycket man vill. Men absolut inte tillåtet att använda någon form av AI verktyg som Copilot, Chat-GPT m.m. Det räknas som fusk och leder till underkänt.
 * Efter provet kan ni skicka in era svarsfiler som DM till mig via Teams.
-Vet ni hur man zippar så får ni gärna zippa mappen med filerna.<br><br>
+Vet ni hur man zippar så får ni zippa mappen med filerna.<br><br>
 
 Börja med att klona eller ladda ner projektet.
 <br>
-`git clone https://github.com/abbjetmus/210s-javascript-prov-extra`
+`git clone https://github.com/abbjetmus/240s-javascript-prov.git`
 <br>
 ## Att tänka på
 
