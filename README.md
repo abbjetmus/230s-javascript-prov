@@ -9,11 +9,13 @@ Men absolut inte tillåtet att använda någon form av AI verktyg som Copilot, C
 
 
 ```
-git clone https://github.com/abbjetmus/240s-javascript-prov.git
+git clone https://github.com/abbjetmus/230s-javascript-prov.git
 ```
 <br>
 
 * Efter provet kan ni skicka in era ändringar till repot som ni klonade genom att göra en git push från Visual Studio.<br><br>
+
+Du kan när som helst göra commits och pusha dina ändringar (endast du har tillgång till just den här kopian av repot). Du lämnar in dina lösningar genom att göra en avslutande commit och push. Kontrollera i repositoriet på webbläsaren att alla ändringar finns med.
 
 ## Att tänka på
 
