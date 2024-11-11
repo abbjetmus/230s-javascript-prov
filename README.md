@@ -1,14 +1,17 @@
-# 210s-javascript-prov
+# 230s-javascript-html-css-prov
 ## Regler
 * Inte tillåtet att hjälpa varandra på något sätt, räknas som fusk.
-* Det är tillåtet att använda internet hur mycket man vill. Men absolut inte tillåtet att använda någon form av AI verktyg som Copilot, Chat-GPT m.m. Det räknas som fusk och leder till underkänt.
-* Efter provet kan ni skicka in era svarsfiler som DM till mig via Teams.
-Vet ni hur man zippar så får ni zippa mappen med filerna.<br><br>
+* Det är tillåtet att använda internet hur mycket man vill. 
+Men absolut inte tillåtet att använda någon form av AI verktyg som Copilot, Chat-GPT m.m. Det räknas som fusk och leder till underkänt.
 
-Börja med att klona eller ladda ner projektet.
+
+* Börja med att skapa ett projekt via länken till Github Classroom och klona projektet.
 <br>
 `git clone https://github.com/abbjetmus/240s-javascript-prov.git`
 <br>
+
+* Efter provet kan ni skicka in era ändringar till repot som ni klonade genom att göra en git push från Visual Studio.<br><br>
+
 ## Att tänka på
 
 Varje fråga består av en html fil med uppgiftsnumret.<br>
@@ -19,7 +22,7 @@ Du får använda valfri editor för att koda men rekommenderar Visual Studio Cod
 ## Fråga 1 - Variabler
 1. Skapa två variabler en som heter <b>height</b> som du tilldelar ett valfritt tal/nummer, och en som heter <b>width</b> som du också tilldelar ett tal till.
 2. Skapa sedan en variabel <b>omkrets</b> som tilldelas additionen av variablerna height och width så att omkretsen beräknas. Dvs omkretsen av en rektangel med variablerna där width och height är sidorna.<br>
-3. Skriv ut omkrets variabeln till konsolen.
+3. Skriv ut omkrets variabeln till konsolen eller med alert.
 
 ## Fråga 2 - HTML/CSS
 1. Skapa en div-tagg och ange den en klass med namnet **rectangle**. Definera klassen rectangle i *style* taggen innan för head.
@@ -35,9 +38,9 @@ Du får använda valfri editor för att koda men rekommenderar Visual Studio Cod
 2. Skriv ut till konsolen med hjälp av listan andra namnet i listan, dvs namn "pelle" med rätt index.
 
 ## Fråga 4 - If-satser
-Läs in ett namn med <i>prompt()</i> och lagra det i en variabel som heter <b>name</b>.
-Använd if-satser för att kontrollera ifall namnet är:<br> <i>Pelle</i>, <i>Kalle</i> eller <i>Nalle</i> - Är fallet sådan skriver du ut "Du är medlem i Kula falmiljen".<br>
-3. Annars skriver du ut "Du är inte medlem i Kula familjen".
+Läs in ett tal med <i>prompt()</i> och lagra det i en variabel som heter <b>myNumber</b>.
+Använd if-satser för att kontrollera ifall talet är mellan 5 och 10. Är fallet sådan skriver du ut "Talet är mellan 5 och 10".<br>
+Annars skriver du ut "Talet är inte mellan 5 och 10".
 
 
 ## Fråga 5 - For-loopen
@@ -66,26 +69,14 @@ Du har en lista nedan med objekt som innehåller information om politiker.
 2. Anropa sedan varje funktion med valfria värden på parametrarna och skriv ut resultatet till konsolen.
 
 
-## Fråga 8 (lite svårare) - Filtrering med Callback
-Du har en lista nedan med objekt som innehåller information om politiker.
-
+## Fråga 8 - Filtrering med Callback
+Du har en lista med siffror 
+```js
+let numbers = [12, 25, 37, 43, 59, 61]
 ```
-[{id: 1, firstName: 'Stefan', lastName: 'Löven'},
-{id: 2, firstName: 'Annie', lastName: 'Lööv'},
-{id: 3, firstName: 'Nyamko', lastName: 'Sabuni'},
-{id: 4, firstName: 'Jimmie', lastName: 'Åkesson'},
-{id: 5, firstName: 'Per', lastName: 'Bolund'},]
-```
-1. Tilldela listan till en variabel som heter **politiker**.
+Skapa en funktion som heter filterEvenNumbers som använder array-metoden filter() för att filtrera ut alla jämna nummer från listan och returnera en ny lista. Anropa funktionen och skriv ut den nya listan i konsolen.
 
-2. Skapa en funktion som heter *findPolitiker()*, findPolitiker tar in en parameter på ett förnamn **firstName**,
-använd firstName för att filtrera ut objektet med det firstName från politiker och returnera det.
-
-Använd inbyggda find-funktionen för att filtrera: <https://www.w3schools.com/jsref/jsref_find.asp>
-
-3. Anropa findPolitiker med ett ett valfritt förnamn som finns i listan och tilldela det till en variabel **p**, använd **p** och skriv ut namnet på objektet på formatet: 
-**firstName - lastName**, för första objektet med firstName='Stefan' skulle det se ut så här **Stefan - Löven**.
-
+Tips: <https://www.w3schools.com/jsref/jsref_filter.asp>
 
 ## Fråga 9 - HTML/JavaScript 
 1. Skapa en input-tagg med **id="adress"** som tar in en bild-adress dvs text.
