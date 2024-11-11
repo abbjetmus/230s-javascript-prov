@@ -7,7 +7,9 @@ Men absolut inte tillåtet att använda någon form av AI verktyg som Copilot, C
 
 * Börja med att skapa ett projekt via länken till Github Classroom och klona projektet.
 <br>
-```git clone https://github.com/abbjetmus/240s-javascript-prov.git```
+```
+git clone https://github.com/abbjetmus/240s-javascript-prov.git
+```
 <br>
 
 * Efter provet kan ni skicka in era ändringar till repot som ni klonade genom att göra en git push från Visual Studio.<br><br>
