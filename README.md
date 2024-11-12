@@ -9,7 +9,7 @@ Men absolut inte tillåtet att använda någon form av AI verktyg som Copilot, C
 
 
 ```
-git clone https://github.com/abbjetmus/230s-javascript-prov.git
+git clone länk
 ```
 <br>
 
