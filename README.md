@@ -105,4 +105,4 @@ klasserna ska sätta background-color till red respektive green.
 <b>Byt ut taggen mot en knapp vilket är lättare och ger 1 poäng mindre om checkbox är för svårt. Eller gör båda för övningens skull.</b>
 
 ### Resultat
-![](./assets/uppgift5.gif)
+![](./assets/uppgift9.gif)
