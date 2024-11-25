@@ -83,12 +83,26 @@ Skapa en funktion som heter filterEvenNumbers som använder array-metoden filter
 
 Tips: <https://www.w3schools.com/jsref/jsref_filter.asp>
 
-## Fråga 9 - HTML/JavaScript 
-1. Skapa en input-tagg med **id="adress"** som tar in en bild-adress dvs text.
-2. Skapa en knapp-tagg (button) bredvid input-taggen som när man klickar på den ska köra en funktion som heter *showImage()* som du definerar i script-taggen.
-3. Skapa under dessa en img-tagg med **id="bild"** som du ändrar *src*-attributet på från din showImage() funktion till det som kopierades in i input-taggen.
-4. Bilden ska sedan synas.
+## Fråga 9 - Html +  JavaScript
+1. Du har en input tagg av typen checkbox.
+2. Läs in checkboxen med JavaScript och varje gång den bockas respektive av-bockas ska bakgrundsfärgen ändras på div-taggen under.
+3. Du kan applicera css-klasserna i styles-taggen innanför head-taggen som heter "backgroundGreen", och "backgroundRed".
+```
+    <style>
+        .backgroundGreen {
+            background-color: green;
+        }
 
-Notera att knappen som ni klickar på inte finns med i gifen/klippet.
+        .backgroundRed {
+            background-color: red;
+        }
+    </style>
+```
+klasserna ska sätta background-color till red respektive green.
+```
+<div> style="width: 200px; height: 200px;"></div>
+```
+<b>Byt ut taggen mot en knapp vilket är lättare och ger 1 poäng mindre om checkbox är för svårt. Eller gör båda för övningens skull.</b>
+
 ### Resultat
-![](./uppgift3.gif)
+![](./assets/uppgift5.gif)
