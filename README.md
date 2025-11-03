@@ -85,6 +85,40 @@ Tips: <https://www.w3schools.com/jsref/jsref_filter.asp>
 
 ## Fråga 9 - Html +  JavaScript
 1. Du har en input tagg av typen checkbox.
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fråga 9</title>
+    <style>
+        .backgroundGreen {
+            background-color: green;
+        }
+
+        .backgroundRed {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Här ska din HTML kod vara -->
+    <input type="checkbox" id="checkbox" />
+
+    <div style="width: 200px; height: 200px;"></div>
+
+
+    <script>
+        // Här ska din JavaScript kod vara
+
+
+    </script>
+</body>
+
+</html>
+```
 2. Läs in checkboxen med JavaScript och varje gång den bockas respektive av-bockas ska bakgrundsfärgen ändras på div-taggen under.
 3. Du kan applicera css-klasserna i styles-taggen innanför head-taggen som heter "backgroundGreen", och "backgroundRed".
 ```
